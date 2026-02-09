@@ -1,0 +1,35 @@
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;   /* half width */
+  border-right: 20px solid transparent;  /* half width */
+  border-bottom: 40px solid black;       /* height & color */
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  background: #000; /* black stripe */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Diamond (rombo) */
+.diamond {
+  width: 60px;
+  height: 60px;
+  background: #f5f5dc; /* straw color */
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+/* Center dot */
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+}
+
