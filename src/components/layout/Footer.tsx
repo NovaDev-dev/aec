@@ -6,7 +6,7 @@ import SombreroPattern from "../ui/SombreroPattern";
 
 export default function Footer() {
   return (
-    <section id="contact" className="relative w-full overflow-hidden h-96 bg-light">
+    <section id="contact" className="relative z-0 w-full overflow-hidden h-96 bg-light">
         <SombreroPattern />
 
         {/* Content on top */}
