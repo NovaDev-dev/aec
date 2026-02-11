@@ -21,7 +21,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Asi es Colombia",
+  title: "Así es Colombia",
   description: "Colombian Dance Group in YYC",
 };
 
