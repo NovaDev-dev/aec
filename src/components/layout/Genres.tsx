@@ -5,7 +5,7 @@ import { genres } from "@/data/genres";
 
 export default function Genres() {
   return (
-    <section className="relative w-full py-32 px-6 md:px-24 xl:px-64 overflow-hidden">
+    <section id="genres" className="relative w-full py-32 px-6 md:px-24 xl:px-64 overflow-hidden">
       {/* Title */}
       <div className="pb-12">
         <h2 className="text-4xl md:text-6xl font-extrabold">

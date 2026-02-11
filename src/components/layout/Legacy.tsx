@@ -17,7 +17,7 @@ export default function Legacy() {
   }, []);
 
   return (
-    <section className="relative w-full h-[70vh] overflow-hidden">
+    <section id="legacy" className="relative w-full h-[70vh] overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -48,7 +48,7 @@ export default function Legacy() {
       ))}
 
       {/* Navigation */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
         {slides.map((_, index) => (
           <button
             key={index}

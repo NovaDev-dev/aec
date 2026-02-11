@@ -2,13 +2,13 @@
 import { PatternItem, SombreroPatternProps } from "@/types";
 
 const patternItems: PatternItem[] = [
-  { type: "bar", width: "w-1/2", opacity: 10 },
-  { type: "bar", width: "w-full", opacity: 60 },
+  { type: "bar", width: "w-1/2", opacity: 70 },
+  { type: "bar", width: "w-full", opacity: 80 },
   { type: "bar", width: "w-2/3", opacity: 90 },
   { type: "triangles" },
   { type: "pinta" },
   { type: "triple" },
-  { type: "bar", width: "w-full", opacity: 50 },
+  { type: "bar", width: "w-full", opacity: 80 },
   { type: "bar", width: "w-1/3", opacity: 90 },
   { type: "triple" },
   { type: "pinta" },

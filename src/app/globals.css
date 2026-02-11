@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 :root {
   --background: #ffffff;
   --foreground: #3b2016;
@@ -30,4 +29,8 @@
   .font-body {
     font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

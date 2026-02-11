@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/layout/Hero";
 import About from "@/components/layout/About";
 import Legacy from "@/components/layout/Legacy";
+import Events from "@/components/layout/Events";
 import Genres from "@/components/layout/Genres";
 import Footer from "@/components/layout/Footer";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Legacy/>
+      <Events/>
       <Genres/>
       <Footer/>
     </main>

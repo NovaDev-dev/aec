@@ -14,17 +14,17 @@ export const genres = [
       "Joropo is a vibrant traditional rhythm from Colombia’s Eastern Plains (Los Llanos), characterized by fast, rhythmic footwork and dynamic partner movement. Accompanied by harp, cuatro, and maracas, it reflects the strength, freedom, and spirited lifestyle of the llanero culture.",
   },
   {
-    name: "Garabato",
+    name: "Rumba Campesina",
     image: "genre-3.jpeg",
-    shortDescription: "Energetic Caribbean dance with playful interactions.",
+    shortDescription: "Lively rural dance rooted in Colombia’s countryside traditions.",
     longDescription:
-      "Garabato is a dynamic dance from Colombia’s Caribbean coast, performed during festive celebrations and folkloric events. Featuring playful interactions, vibrant costumes, and energetic percussion-driven rhythms, it tells stories of local customs through humor, expressive footwork, and captivating performances.",
+      "Rumba Campesina is a traditional dance from Colombia’s rural regions, especially the Andean countryside. It reflects daily life, courtship, and community gatherings through joyful movements, rhythmic footwork, and expressive partner interaction.",
   },
   {
-    name: "Salsa Caleña",
-    image: "genre-4.jpg",
-    shortDescription: "Fast-paced salsa from Cali with intricate spins and footwork.",
+    name: "Carnaval",
+    image: "genre-4.jpeg",
+    shortDescription: "Vibrant celebration blending dance, music, and cultural identity.",
     longDescription:
-      "Salsa Caleña, from Cali — Colombia's Salsa Capital — is a fast-paced, high-energy salsa style known for quick spins, intricate footwork, and expressive partner movements. Combining Afro-Caribbean rhythms with vibrant melodies, it creates a thrilling, social dance experience that excites both dancers and audiences alike.",
+      "Carnaval is a colorful expression of Colombian cultural fusion, especially prominent during carnival celebrations such as Carnaval de Barranquilla. Through energetic movements, expressive choreography, and rich traditional costumes, the dance represents joy, freedom, and community. ",
   },
 ];

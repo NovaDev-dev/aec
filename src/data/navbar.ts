@@ -1,7 +1,10 @@
 export const sections = [
-    { id: "home", label: "Home", href: "/" },
+    { id: "home", label: "Home", href: "/#home" },
     { id: "about", label: "About Us", href: "/#about" },
-    { id: "contact", label: "Contact", href: "/contact" },
+    { id: "legacy", label: "Legacy", href: "/#legacy" },
+    { id: "events", label: "Events", href: "/#events" },
+    { id: "genres", label: "What We Dance", href: "/#genres" },
+    { id: "contact", label: "Contact", href: "/#contact" },
 ];
 
 export const SOCIALS = {

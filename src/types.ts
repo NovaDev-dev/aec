@@ -16,3 +16,23 @@ export type GenreProps = {
     longDescription: string;
     image: string;
 }
+
+export type EventProps = {
+  title: string;
+  date: string;
+  time: string;
+  location: string;
+  description?: string;
+  instagramUrl?: string;
+  poster?: string;
+}
+
+export type EventCardProps = {
+  event: EventProps | null ;
+  onClose: () => void;
+}
+
+export type CalendarProps = {
+  onEventClicked: (props: EventProps) => void;
+
+}

@@ -1,0 +1,81 @@
+/* Base Calendar Container */
+.fc {
+  --fc-page-bg-color: transparent;
+  --fc-border-color: transparent; /* remove default borders */
+  --fc-today-bg-color: var(--primary);
+
+  --fc-button-bg-color: var(--primary);
+  --fc-button-border-color: var(--primary);
+
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  padding: 1.25rem;
+}
+
+/* Toolbar */
+.fc-toolbar-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Toolbar Buttons */
+.fc .fc-button {
+  border-radius: 10px; /* pill shape */
+  padding: 0.45rem 0.9rem;
+  font-weight: 500;
+  background: var(--primary);
+  border: none; /* remove default border */
+  color: white;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect for buttons */
+.fc .fc-button:hover {
+  background: var(--secondary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Active / selected button */
+.fc .fc-button-active {
+  background: var(--secondary); /* highlight color */
+  border: none; /* remove that grey border */
+  color: white;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Events */
+.fc-event {
+  background: var(--secondary);
+  border: none;
+  border-radius: 0.75rem;
+  padding: 4px 6px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+/* Event hover */
+.fc-event:hover {
+  filter: brightness(0.2);
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .fc-toolbar {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .fc-toolbar-title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}

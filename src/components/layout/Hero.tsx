@@ -1,11 +1,12 @@
 // Next & React
 import Image from "next/image"
 import { Button } from "../common/Button";
+import Link from "next/link";
 
 export default function Hero () {
 
     return(
-        <section className="relative h-screen w-full overflow-hidden text-light">
+        <section id="home" className="relative h-screen w-full overflow-hidden text-light">
             {/* Background image */}
             <Image
                 src="/hero.jpeg"
@@ -37,13 +38,16 @@ export default function Hero () {
                     </p>
 
                     <div className="mt-6 flex gap-4">
-                        <Button className="bg-primary text-foreground font-bold hover:opacity-90 ">
-                            Book an Event
-                        </Button>
-
-                        <Button className="border border-white/60 text-light hover:bg-light/10 ">
-                            Watch Performances
-                        </Button>
+                        <Link href={"/#events"} passHref >
+                            <Button className="bg-primary text-foreground font-bold hover:opacity-90 ">
+                                Next Events
+                            </Button>
+                        </Link>
+                        <Link href={"/#legacy"} passHref >                        
+                            <Button className="border border-white/60 text-light hover:bg-light/10 ">
+                                Our Legacy 
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>
